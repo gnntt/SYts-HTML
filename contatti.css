@@ -1,0 +1,288 @@
+.nav-links-links {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-links-link {
+  font-family: Marcellus;
+  text-decoration: none;
+}
+.nav-links-link1 {
+  font-family: Marcellus;
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .nav-links-links {
+    display: none;
+  }
+}
+
+.contatti-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.contatti-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contatti-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.contatti-branding {
+  flex: 1;
+  display: flex;
+  max-width: 640px;
+  align-items: flex-start;
+  border-color: #61616B;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom-width: 1px;
+}
+.contatti-navlink {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  align-self: center;
+  font-family: Marcellus;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.contatti-desktop-menu {
+  display: flex;
+}
+.contatti-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.contatti-right {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.contatti-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contatti-corsi {
+  cursor: pointer;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 70px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #cda434;
+}
+.contatti-corsi:hover {
+  opacity: 0.5;
+}
+.contatti-text {
+  display: flex;
+  font-size: 24px;
+}
+.contatti-image {
+  width: 100px;
+  display: none;
+  object-fit: cover;
+}
+.contatti-banner {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contatti-text01 {
+  font-size: 3rem;
+  text-align: center;
+}
+.contatti-text02 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.contatti-link {
+  text-decoration: underline;
+}
+.contatti-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.contatti-content {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  border-color: #61616B;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.contatti-contact {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contatti-email {
+  color: rgb(39, 39, 45);
+  font-size: 30px;
+}
+.contatti-socials {
+  gap: var(--dl-space-space-twounits);
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+@media(max-width: 991px) {
+  .contatti-navbar-interactive {
+    gap: var(--dl-space-space-fourunits);
+    justify-content: center;
+  }
+  .contatti-navlink {
+    align-self: center;
+  }
+  .contatti-corsi {
+    background-color: #cda434;
+  }
+  .contatti-text {
+    line-height: 30px;
+  }
+  .contatti-text02 {
+    max-width: 100%;
+  }
+  .contatti-footer {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .contatti-content {
+    gap: var(--dl-space-space-threeunits);
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .contatti-email {
+    font-size: 24px;
+  }
+  .contatti-socials {
+    display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .contatti-navbar-interactive {
+    padding-top: var(--dl-space-space-twounits);
+    justify-content: space-between;
+  }
+  .contatti-navlink {
+    color: #000000;
+    font-size: 30px;
+    align-self: center;
+    font-family: Marcellus;
+  }
+  .contatti-desktop-menu {
+    display: none;
+  }
+  .contatti-corsi {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .contatti-text {
+    display: none;
+  }
+  .contatti-image {
+    width: 16px;
+    height: 14px;
+    display: flex;
+  }
+  .contatti-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .contatti-text02 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .contatti-socials {
+    display: flex;
+  }
+}
+@media(max-width: 479px) {
+  .contatti-branding {
+    width: 371px;
+    height: 56px;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 0px;
+    justify-content: flex-start;
+  }
+  .contatti-navlink {
+    color: #000000;
+    width: auto;
+    height: 100%;
+    font-size: 30px;
+    align-self: center;
+    font-family: Marcellus;
+  }
+  .contatti-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .contatti-link {
+    text-decoration: underline;
+  }
+  .contatti-content {
+    align-self: flex-start;
+    align-items: center;
+  }
+  .contatti-email {
+    color: rgb(39, 39, 45);
+    font-size: 24px;
+    align-self: flex-start;
+  }
+  .contatti-socials {
+    display: flex;
+  }
+}
