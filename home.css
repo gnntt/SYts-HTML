@@ -249,7 +249,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-color: #cda434;
+  background-color: rgb(205, 164, 52);
 }
 .home-book {
   width: 100%;
@@ -339,10 +339,20 @@
 }
 .home-socials {
   gap: var(--dl-space-space-twounits);
+  width: auto;
   align-self: center;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
+}
+.home-image5 {
+  width: var(--dl-size-size-small);
+}
+.home-image6 {
+  width: var(--dl-size-size-small);
+}
+.home-image7 {
+  width: var(--dl-size-size-small);
 }
 @media(max-width: 991px) {
   .home-navbar-interactive {
