@@ -28,10 +28,3 @@ orario e sede, e aggiornare i testi "Al momento non ci sono corsi attivi" in
 
 Intestazione e piè di pagina sono ripetuti in ogni pagina: se cambi il menu,
 aggiornalo in tutti i file `.html`.
-
-## Anteprima locale
-
-```
-python3 -m http.server
-```
-e apri http://localhost:8000
