@@ -498,44 +498,6 @@ p { margin: 0 0 1.1em; }
 .steps h3 { font-size: 1.15rem; margin-bottom: 0.2em; }
 .steps p { margin: 0; color: var(--ink-soft); }
 
-/* --- Chakra list --------------------------------------------------------- */
-
-.chakras {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 12px;
-}
-.chakras li {
-  display: grid;
-  grid-template-columns: 14px 1fr;
-  gap: 16px;
-  align-items: start;
-  padding: 16px 20px;
-  background: var(--white);
-  border-radius: var(--radius-sm);
-}
-.chakras .dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  margin-top: 7px;
-  background: var(--c, var(--accent));
-}
-.chakras strong { font-family: var(--font-display); font-weight: 400; font-size: 1.1rem; color: var(--deep); }
-.chakras span.q { display: block; color: var(--ink-soft); font-size: 0.97rem; }
-
-.channels {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-.channels .card { border-top: 5px solid var(--c); }
-@media (max-width: 760px) {
-  .channels { grid-template-columns: 1fr; }
-}
-
 /* --- Quote --------------------------------------------------------------- */
 
 .quote {
